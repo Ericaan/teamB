@@ -1,0 +1,56 @@
+body {
+    font-family: "Monaco", monospace;
+}
+h3 {
+    text-align: center;
+}
+
+aside {
+    float: left;
+    width: 60%;
+    height: 50%; 
+    background: #f1f1f1;
+    padding: 20px;
+    font-size: 18px;
+}
+  
+aside ul {
+    list-style-type: none;
+    padding: 5px;
+}
+  
+article {
+    float: left;
+    padding: 20px;
+    width: 40%;
+    height: 50%; 
+}
+  
+  
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr.rounded {
+    border-top: 8px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+label, input{
+    padding: 5px;
+}
+
+.list{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img{
+    width: 100%;
+}
